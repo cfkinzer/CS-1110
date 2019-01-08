@@ -1,0 +1,5 @@
+my_age = input("How old are you?")
+my_age = float(my_age)
+young = int(my_age / 2 + 7)
+old = int(my_age * 2 - 13)
+print("You can date people between {:d} and {:d} years old.".format(young, old))
